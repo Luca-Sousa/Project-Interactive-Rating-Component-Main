@@ -8,42 +8,60 @@
   
   <title>Frontend Mentor | Interactive rating component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- Rating state start -->
+  <main>
 
-  How did we do?
+    <section class="container1">
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+      <div class="logo-img">
+        <img src="images/icon-star.svg" alt="icon-star">
+      </div>
+      
+      <div class="content-text">
+        <h2>How did we do?</h2>
+        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      </div>
 
-  1 2 3 4 5
+      <section class="content-options">
+        <button type="button">1</button>
+        <button type="button">2</button>
+        <button type="button">3</button>
+        <button type="button">4</button>
+        <button type="button">5</button>
+      </section>
 
-  Submit
+      <div class="content-submit">
+        <button type="submit">Submit</button>
+      </div>
 
-  <!-- Rating state end -->
+    </section>
 
-  <!-- Thank you state start -->
+    <section class="container2">
 
-  You selected <!-- Add rating here --> out of 5
+      <div class="logo-img">
+        <img src="images/illustration-thank-you.svg" alt="illustration-thank-you">
+      </div>
 
-  Thank you!
+      <div class="text-selected">
+        <p>You selected 4 out of 5</p>
+      </div>
 
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+      <div class="content-text">
+        <h2>Thank you!</h2>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+      </div>
 
-  <!-- Thank you state end -->
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    </section>
+
+  </main>
+
 </body>
 </html>
