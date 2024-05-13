@@ -33,7 +33,7 @@ main{
     height: 100%;
     max-height: 450px;
     background-color: rgba(30,37,47,255);
-    margin: 0 2%;
+    margin: 0 5%;
     border-radius: 30px;
     padding: 40px;
     display: flex;
@@ -78,15 +78,26 @@ main{
 }
 
 .content-options button{
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
     background-color: rgba(39,48,57,255);
     border: 0;
     color: var(--light-grey);
     font-size: 0.938rem;
     font-weight: 400;
     cursor: pointer;
+}
+
+.content-options button:hover{
+    background-color: var(--medium-grey);
+    color: var(--white);
+    font-weight: 700;
+}
+
+#options button.active{
+    background-color: var(--orange);
+    color: var(--white);
 }
 
 .content-submit{
@@ -113,7 +124,7 @@ main{
     height: 100%;
     max-height: 450px;
     background-color: rgba(30,37,47,255);
-    margin: 2%;
+    margin: 0 5%;
     border-radius: 30px;
     padding: 50px;
     display: none;
@@ -137,7 +148,7 @@ main{
 }
 
 .text-selected{
-    width: 50%;
+    width: 70%;
     height: 100%;
     max-height: 30px;
     background-color: rgba(39,48,57,255);
